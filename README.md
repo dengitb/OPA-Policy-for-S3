@@ -1,5 +1,3 @@
-# REGO
-
 # Edge Cases and Logging/Monitoring
 
 # Edge Cases

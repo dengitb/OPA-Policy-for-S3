@@ -3,7 +3,8 @@
 # Edge Cases and Logging/Monitoring
 
 # Edge Cases
-    . Consider scenarios where the role might be missing or improperly formatted for example , the case sensitivity (e.g., "st-access-role" vs "ST-ACCESS-ROLE").
+    . Consider scenarios where the role might be missing or improperly formatted for example.
+    . Ensure the policy correctly handles case sensitivity (e.g., "st-access-role" vs "ST-ACCESS-ROLE").
     . Ensure the policy is not bypassed by role impersonation
     . Handle cases where users have multiple roles, and ensure the correct role is validated.
     . Address scenarios where the required role has been deleted or renamed in the IAM system.

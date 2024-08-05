@@ -8,4 +8,4 @@
 
 # Logging and Monitoring:
     . Integrate OPA with logging tools to monitor policy enforcement and capture access logs.
-    .Use AWS CloudTrail to track IAM role activities and validate against OPA logs.
+    . Use AWS CloudTrail to track IAM role activities and validate against OPA logs.

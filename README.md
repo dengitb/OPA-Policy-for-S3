@@ -5,8 +5,7 @@
 # Edge Cases
     . Consider scenarios where the role might be missing or improperly formatted for example.
     . Ensure the policy correctly handles case sensitivity (e.g., "st-access-role" vs "ST-ACCESS-ROLE").
-    . Ensure the policy is not bypassed by role impersonation
-    . Handle cases where users have multiple roles, and ensure the correct role is validated.
+    . Ensure the policy is not bypassed by role impersonation.
     . Address scenarios where the required role has been deleted or renamed in the IAM system.
     . Handle dynamic changes to user roles during an active session
     . Ensure that access is denied if the user's credentials have expired.
